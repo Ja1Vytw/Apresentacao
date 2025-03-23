@@ -1,0 +1,9 @@
+    <img src="https://icongr.am/devicon/angularjs-original.svg?size=40&color=currentColor" alt="AngularJS" srcset="" />
+    <img src="https://icongr.am/devicon/laravel-plain.svg?size=40&color=currentColor" alt="Laravel" srcset="" />    
+    <img src="https://icongr.am/devicon/bootstrap-plain.svg?size=40&color=currentColor" alt="Bootstrap" srcset="" />
+    <img src="https://icongr.am/devicon/react-original.svg?size=40&color=currentColor" alt="ReactJS" srcset="" />
+    <img src="https://icongr.am/devicon/ionic-original.svg?size=40&color=currentColor" alt="Ionic" srcset="" />
+    <img src="https://icongr.am/devicon/jquery-original.svg?size=40&color=currentColor" alt="JQuery" srcset="" />
+    <img src="https://icongr.am/devicon/sass-original.svg?size=40&color=currentColor" alt="SASS" srcset="" />
+    <img src="https://icongr.am/devicon/linux-original.svg?size=40&color=currentColor" alt="linux" srcset="" />
+    
