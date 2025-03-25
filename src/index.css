@@ -167,12 +167,12 @@ body {
 .competencias__colunas {
   display: flex;
   flex-wrap: wrap;
-  gap: 100px; /* Aumentando o gap para 100px */
+  gap: 100px; 
   position: relative;
 }
 
 .competencias__coluna {
-  flex: 1 1 calc(50% - 50px); /* Ajustando o cálculo para considerar o novo gap */
+  flex: 1 1 calc(50% - 50px);
   box-sizing: border-box;
 }
 
@@ -289,33 +289,44 @@ body {
   }
 }
 
-.competencias__cursos{
-  border: 1px white solid;
+/* curso */
+.container__item-curso {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
 }
 
-.container__item-curso{
-  display: flex;
-  gap: 10px;
-}
-
-.curso{
-  width: calc(33%);
+.curso {
+  width: 100%;
   height: auto;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.competencias__item-tecnologiasTitle{
+.curso:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 8px rgba(0, 189, 189, 0.5); 
+}
+
+.competencias__item-tecnologiasTitle {
   margin-bottom: 5px;
 }
 
-.icon__curso{
+.icon__curso {
   margin-left: 5px;
-  transition: transform 0.15s ease;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
 }
 
-.icon__curso:hover{
+.icon__curso:hover {
   transform: scale(1.1);
-
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
+@media (max-width: 1400px) {
+  .container__item-curso {
+    grid-template-columns: 1fr;
+  }
+}
 /* Tecnologias */

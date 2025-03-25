@@ -259,6 +259,52 @@ const Competencias = () => {
                 </div>
               </div>
             </div>
+
+            <div className="competencias__item curso">
+              <div className="competencias__item-cabecalho">
+                <h3 className="competencias__item-titulo">
+                  Curso HTML | CSS | JavaScript
+                </h3>
+                <p className="competencias__status competencias__status--finalizado">
+                  Finalizado
+                </p>
+              </div>
+              <div className="competencias__instituicao">
+                <p className="competencias__instituicao-nome clear azul">
+                  Udemy | Serliv Code | 123.5 Horas
+                </p>
+                <p className="azul">Fev 2023 a Abr 2023</p>
+                <p className="competencias__item-resumo">
+                  Aprendi HTML, CSS, JavaScript e lógica de programação, criando
+                  mais de 10 projetos práticos. O curso abordou desde a
+                  estruturação de páginas até interatividade.
+                </p>
+                <div className="competencias__item-tecnologias">
+                  <p className="competencias__item-tecnologiasTitle azul">
+                    Tecnologias aprendidas
+                  </p>
+                  <img
+                    src="https://icongr.am/devicon/css3-original.svg?size=25&color=00bdbd"
+                    alt="CSS"
+                    title="CSS"
+                    className="icon__curso"
+                  />
+                  <img
+                    src="https://icongr.am/devicon/html5-original.svg?size=25&color=00bdbd"
+                    alt="HTML"
+                    title="html"
+                    className="icon__curso"
+                  />
+                  <img
+                    src="https://icongr.am/devicon/javascript-original.svg?size=25&color=00bdbd"
+                    alt="JavaScript"
+                    title="JavaScript"
+                    className="icon__curso"
+                  />
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>

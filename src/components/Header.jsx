@@ -38,8 +38,8 @@ const Header = () => {
               </a>
             </li>
             <li className="item__navbar-Header">
-              <a href="#experiencia" className="link__navbar-Header">
-                Experiência
+              <a href="#competencias" className="link__navbar-Header">
+                Competências
               </a>
             </li>
             <li className="item__navbar-Header">
@@ -59,7 +59,6 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        
       </div>
     </div>
   );
