@@ -148,46 +148,46 @@ body {
 }
 
 
-/* Competencias */
+/* Desenvolvimento Profissional */
 
-#competencias {
+#desenvolvimento {
   margin-top: 75px;
   min-width: 600px;
 }
 
-.competencias__titulo {
+.desenvolvimento__titulo {
   text-align: center;
 }
 
-.competencias__conteudo {
+.desenvolvimento__conteudo {
   display: flex;
   flex-direction: column;
 }
 
-.competencias__colunas {
+.desenvolvimento__colunas {
   display: flex;
   flex-wrap: wrap;
-  gap: 100px; 
+  gap: 100px;
   position: relative;
 }
 
-.competencias__coluna {
+.desenvolvimento__coluna {
   flex: 1 1 calc(50% - 50px);
   box-sizing: border-box;
 }
 
-.competencias__cabecalho {
+.desenvolvimento__cabecalho {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
 
-.competencias__cabecalho h3 {
+.desenvolvimento__cabecalho h3 {
   margin-left: 15px;
   font-size: 25px;
 }
 
-.competencias__item {
+.desenvolvimento__item {
   height: auto;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -198,22 +198,22 @@ body {
   cursor: pointer;
 }
 
-.competencias__item:hover {
+.desenvolvimento__item:hover {
   border: 1px rgb(0, 189, 189) solid;
   transform: scale(1.02);
 }
 
-.competencias__item-cabecalho {
+.desenvolvimento__item-cabecalho {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.competencias__item-titulo {
+.desenvolvimento__item-titulo {
   width: 70%;
 }
 
-.competencias__status {
+.desenvolvimento__status {
   width: 30%;
   text-align: center;
   padding: 3px;
@@ -224,21 +224,20 @@ body {
   color: rgb(0, 189, 189);
 }
 
-.competencias__status--andamento{
+.desenvolvimento__status--andamento {
   border: 1px rgb(189, 0, 0) solid;
   background-color: rgba(189, 0, 0, 0.048);
-
 }
 
-.competencias__item-resumo {
+.desenvolvimento__item-resumo {
   text-align: justify;
 }
 
-.competencias__instituicao p {
+.desenvolvimento__instituicao p {
   margin-top: 10px;
 }
 
-.competencias__separador {
+.desenvolvimento__separador {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -250,18 +249,8 @@ body {
   width: 20px;
 }
 
-.competencias__separador-bolinha {
-  width: 10px;
-  height: 10px;
-  background-color: rgb(0, 189, 189);
-  border-radius: 50%;
-  margin: 5px 0;
-  animation: pulse 2s infinite ease-in-out;
-}
 
-
-
-.competencias__separador-linha {
+.desenvolvimento__separador-linha {
   flex: 1;
   width: 2px;
   background-color: rgb(0, 189, 189);
@@ -269,31 +258,23 @@ body {
 }
 
 /* Animações */
-@keyframes pulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-}
 
 @keyframes expand {
   0% {
-    transform: scaleY(0.5);
+      transform: scaleY(0.9);
   }
   100% {
-    transform: scaleY(1);
+      transform: scaleY(1);
   }
 }
 
 @media (max-width: 1200px) {
-  .competencias__coluna {
-    flex: 1 1 100%;
+  .desenvolvimento__coluna {
+      flex: 1 1 100%;
   }
 
-  .competencias__separador {
-    display: none;
+  .desenvolvimento__separador {
+      display: none;
   }
 }
 
@@ -315,10 +296,10 @@ body {
 
 .curso:hover {
   transform: scale(1.05);
-  box-shadow: 2px 2px 8px rgba(0, 189, 189, 0.5); 
+  box-shadow: 2px 2px 8px rgba(0, 189, 189, 0.5);
 }
 
-.competencias__item-tecnologiasTitle {
+.desenvolvimento__item-tecnologiasTitle {
   margin-bottom: 5px;
 }
 
@@ -334,9 +315,99 @@ body {
 
 @media (max-width: 1400px) {
   .container__item-curso {
-    grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
   }
 }
 
-
 /* Tecnologias */
+
+
+/* FORMS */
+.contact-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.contact-form {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: 48%;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #444;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  resize: none;
+  width: 100%; /* Garante que a textarea ocupe 100% da largura disponível */
+}
+
+/* Adicione este estilo para o grupo da textarea */
+.textarea-group {
+  margin-bottom: 20px;
+  width: 100%; /* Garante que o grupo da textarea ocupe 100% da largura */
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.submit-button {
+  background-color: #00bf72;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #00995e;
+}
+
+.submit-button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 15px;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+}
